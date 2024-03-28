@@ -66,7 +66,7 @@ li {
   
   li  a {
     text-decoration-line: none;
-    background-color: #1a1a19;
+    background-color: #110f69;
     color: rgb(255, 255, 255);
     font-size:medium;
     font-weight:lighter;
@@ -83,40 +83,7 @@ li {
 }
 .centrado{
     position: absolute;
-    top: 10%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-@charset "utf-8";
-nav{
-   display:grid;
-   grid-template-columns: 1fr auto;
-   align-items: center;
-   background: aliceblue;
-   font-family: sans-serif;
-   position:fixed;
-   top:0;
-   width:100%;
-}
-nav .logo{
-   font-size: 24px;
-   font-weight:black;
-}
-nav .barnav{
-   display:grid;
-   grid-template-columns: repeat(7,auto);
-   margin-right: 250px;
-   border-color: aqua;
-   color: aqua;
-}
-nav .barnav div{
-   padding: 3px 3px;
-}
-nav .barnav div:hover{
-   cursor: pointer;
-   background:rgba(0, 255, 255, 0.038);
-}
-.contenido{
-   height: 10px;
-   margin-top: 6px; 
 }
